@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two sided form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <div class="signup">
+            <span>Not a member?</span>
+            <button type="button" class="signup-btn">Sign Up</button>
+        </div>
+        <div class="login">
+            <span>Already Have an Account?</span>
+            <button type="button">Login</button>
+        </div>
+
+        <div class="back-layer">
+            <form action="" class="login-form active">
+                <h2 class="login-label">Login</h2>
+                <input type="email" placeholder="Email" id="lemail">
+                <input type="password" placeholder="Password" id="lpassword">
+                <button type="button">Login</button>
+            </form>
+
+            <form action="" class="signup-form">
+                <h2>Sign up</h2>
+                <input type="text" placeholder="First Name" id="f-name">
+                <input type="text" placeholder="Last Name" id="l-name">
+                <input type="email" placeholder="Email" id="semail">
+                <input type="password" placeholder="Password" id="spassword">
+                <button type="button">Sign Up</button>
+            </form>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
