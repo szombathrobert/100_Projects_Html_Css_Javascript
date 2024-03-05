@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 800px;
+}
+
+#display-joke {
+    font-size: 4rem;
+}
+
+.btn {
+    padding: 10px;
+    margin-top: 40px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid crimson;
+    cursor: pointer;
+}
